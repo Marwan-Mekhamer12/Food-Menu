@@ -1,0 +1,98 @@
+PODS:
+  - FBAEMKit (17.3.0):
+    - FBSDKCoreKit_Basics (= 17.3.0)
+  - FBSDKCoreKit (17.3.0):
+    - FBAEMKit (= 17.3.0)
+    - FBSDKCoreKit_Basics (= 17.3.0)
+  - FBSDKCoreKit_Basics (17.3.0)
+  - FBSDKLoginKit (17.3.0):
+    - FBSDKCoreKit (= 17.3.0)
+  - FBSDKShareKit (17.3.0):
+    - FBSDKCoreKit (= 17.3.0)
+  - Firebase/Auth (10.29.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 10.29.0)
+  - Firebase/CoreOnly (10.29.0):
+    - FirebaseCore (= 10.29.0)
+  - FirebaseAppCheckInterop (10.29.0)
+  - FirebaseAuth (10.29.0):
+    - FirebaseAppCheckInterop (~> 10.17)
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+    - RecaptchaInterop (~> 100.0)
+  - FirebaseCore (10.29.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.12)
+    - GoogleUtilities/Logger (~> 7.12)
+  - FirebaseCoreInternal (10.29.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - GoogleUtilities/AppDelegateSwizzler (7.13.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Environment (7.13.3):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.13.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (7.13.3):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.13.3)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.3)
+  - GoogleUtilities/Reachability (7.13.3):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GTMSessionFetcher/Core (3.5.0)
+  - PromisesObjC (2.4.0)
+  - RecaptchaInterop (100.0.0)
+
+DEPENDENCIES:
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Firebase/Auth
+
+SPEC REPOS:
+  trunk:
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - PromisesObjC
+    - RecaptchaInterop
+
+SPEC CHECKSUMS:
+  FBAEMKit: 92f488a9c97208e2f6f01655750944d213fbc0b0
+  FBSDKCoreKit: 1be47a742ccdddf8dd85272c3953534214dc0f30
+  FBSDKCoreKit_Basics: fcafe75f7deeed1146d04ea51b45a69731e63c16
+  FBSDKLoginKit: ad0d6485feace32d65f407f6a288c4dfa8ec559c
+  FBSDKShareKit: e96f20fc2f6f68d25ae310a0f64f147f25ef66a4
+  Firebase: cec914dab6fd7b1bd8ab56ea07ce4e03dd251c2d
+  FirebaseAppCheckInterop: 6a1757cfd4067d8e00fccd14fcc1b8fd78cfac07
+  FirebaseAuth: e2ebfaf9fb4638a1c9a3b0efd17d1b90943987cd
+  FirebaseCore: 30e9c1cbe3d38f5f5e75f48bfcea87d7c358ec16
+  FirebaseCoreInternal: df84dd300b561c27d5571684f389bf60b0a5c934
+  GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
+  GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+
+PODFILE CHECKSUM: cbe410ae2a39ac52b097f0539002ff2b03c5234c
+
+COCOAPODS: 1.14.3
