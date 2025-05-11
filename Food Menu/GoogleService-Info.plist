@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CLIENT_ID</key>
+	<string>179054810067-pl8poh91iq4nmr9bf1jujiaqoccuku7k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.179054810067-pl8poh91iq4nmr9bf1jujiaqoccuku7k</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBShBYus-nagoTEREgZvh9O9fNpncdJB1o</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,39 +17,18 @@
 	<key>PROJECT_ID</key>
 	<string>food-menu-3450a</string>
 	<key>STORAGE_BUCKET</key>
-	<string>food-menu-3450a.appspot.com</string>
+	<string>food-menu-3450a.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:179054810067:ios:811ebc463af211685a9526</string>
-    <key>FacebookAppID</key>
-    <string>1513370122631189</string>
-    <key>FacebookDisplayName</key>
-    <string>Food menu</string>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-      <string>fbapi</string>
-      <string>fb-messenger-api</string>
-      <string>fbauth2</string>
-      <string>fbshareextension</string>
-    </array>
-    <key>CFBundleURLTypes</key>
-    <array>
-      <dict>
-        <key>CFBundleURLSchemes</key>
-        <array>
-          <string>1513370122631189</string>
-        </array>
-      </dict>
-    </array>
-
 </dict>
 </plist>
