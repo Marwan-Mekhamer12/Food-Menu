@@ -9,6 +9,7 @@ target 'Food Menu' do
   pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
   pod 'FBSDKShareKit'
+  pod 'GoogleSignIn'
 
 
   # Pods for Food Menu

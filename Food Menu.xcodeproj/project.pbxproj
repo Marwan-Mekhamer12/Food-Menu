@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		AF05EE1FF27250517D45F7FF /* Pods_Food_Menu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E276D435CE8D6CE98E37C00B /* Pods_Food_Menu.framework */; };
-		F40013A12CC493E900E052E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F40013A02CC493E900E052E1 /* GoogleService-Info.plist */; };
+		F4043D672DCC38C7005FCE9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4043D662DCC38C7005FCE9B /* GoogleService-Info.plist */; };
+		F4043D6A2DCC5108005FCE9B /* scrollhomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4043D692DCC5108005FCE9B /* scrollhomeCell.swift */; };
+		F40E27312DCC58FA0058748F /* MenuDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E27302DCC58FA0058748F /* MenuDetails.swift */; };
+		F40E27332DCC5A3D0058748F /* MenuBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E27322DCC5A3D0058748F /* MenuBrain.swift */; };
+		F4BA57242DCFE62B00A63CEF /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BA57232DCFE62B00A63CEF /* HomeTableViewCell.swift */; };
 		F4E11AAF2CC4541800FE6F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E11AAE2CC4541800FE6F2F /* AppDelegate.swift */; };
 		F4E11AB12CC4541800FE6F2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E11AB02CC4541800FE6F2F /* SceneDelegate.swift */; };
 		F4E11AB32CC4541800FE6F2F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E11AB22CC4541800FE6F2F /* Home.swift */; };
@@ -21,17 +25,22 @@
 		F4E11ACF2CC46D3800FE6F2F /* DescriptionNumbertwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E11ACE2CC46D3800FE6F2F /* DescriptionNumbertwo.swift */; };
 		F4E11AD12CC46D4300FE6F2F /* DescriptionNumberthree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E11AD02CC46D4300FE6F2F /* DescriptionNumberthree.swift */; };
 		F4E11AD32CC4824300FE6F2F /* ForgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E11AD22CC4824300FE6F2F /* ForgetPassword.swift */; };
+		F4FE17642DD00CE100E60697 /* DescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE17632DD00CE100E60697 /* DescriptionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50DB56CB304687F123F0F1A8 /* Pods-Food Menu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Menu.release.xcconfig"; path = "Target Support Files/Pods-Food Menu/Pods-Food Menu.release.xcconfig"; sourceTree = "<group>"; };
 		59E8701544E6E50C157B0E12 /* Pods-Food Menu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Menu.debug.xcconfig"; path = "Target Support Files/Pods-Food Menu/Pods-Food Menu.debug.xcconfig"; sourceTree = "<group>"; };
 		E276D435CE8D6CE98E37C00B /* Pods_Food_Menu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Menu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F40013A02CC493E900E052E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4043D662DCC38C7005FCE9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4043D692DCC5108005FCE9B /* scrollhomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollhomeCell.swift; sourceTree = "<group>"; };
+		F40E27302DCC58FA0058748F /* MenuDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetails.swift; sourceTree = "<group>"; };
+		F40E27322DCC5A3D0058748F /* MenuBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBrain.swift; sourceTree = "<group>"; };
+		F4BA57232DCFE62B00A63CEF /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		F4E11AAB2CC4541800FE6F2F /* Food Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E11AAE2CC4541800FE6F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E11AB02CC4541800FE6F2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4E11AB22CC4541800FE6F2F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F4E11AB22CC4541800FE6F2F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Home.swift; path = "Cell controller/Home.swift"; sourceTree = "<group>"; };
 		F4E11AB52CC4541800FE6F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4E11AB72CC4541B00FE6F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E11ABA2CC4541B00FE6F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +51,7 @@
 		F4E11ACE2CC46D3800FE6F2F /* DescriptionNumbertwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionNumbertwo.swift; sourceTree = "<group>"; };
 		F4E11AD02CC46D4300FE6F2F /* DescriptionNumberthree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionNumberthree.swift; sourceTree = "<group>"; };
 		F4E11AD22CC4824300FE6F2F /* ForgetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassword.swift; sourceTree = "<group>"; };
+		F4FE17632DD00CE100E60697 /* DescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,15 @@
 				50DB56CB304687F123F0F1A8 /* Pods-Food Menu.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4043D682DCC50AD005FCE9B /* Cell controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4043D692DCC5108005FCE9B /* scrollhomeCell.swift */,
+				F4BA57232DCFE62B00A63CEF /* HomeTableViewCell.swift */,
+			);
+			path = "Cell controller";
 			sourceTree = "<group>";
 		};
 		F4E11AA22CC4541800FE6F2F = {
@@ -103,7 +122,7 @@
 				F4E11AB72CC4541B00FE6F2F /* Assets.xcassets */,
 				F4E11AB92CC4541B00FE6F2F /* LaunchScreen.storyboard */,
 				F4E11ABC2CC4541B00FE6F2F /* Info.plist */,
-				F40013A02CC493E900E052E1 /* GoogleService-Info.plist */,
+				F4043D662DCC38C7005FCE9B /* GoogleService-Info.plist */,
 			);
 			path = "Food Menu";
 			sourceTree = "<group>";
@@ -112,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				F4E11AB22CC4541800FE6F2F /* Home.swift */,
+				F4FE17632DD00CE100E60697 /* DescriptionVC.swift */,
+				F4043D682DCC50AD005FCE9B /* Cell controller */,
 				F4E11AC52CC455FA00FE6F2F /* SignInVC.swift */,
 				F4E11AC72CC4560C00FE6F2F /* RegisterVC.swift */,
 			);
@@ -129,6 +150,8 @@
 		F4E11AC42CC455C300FE6F2F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F40E27302DCC58FA0058748F /* MenuDetails.swift */,
+				F40E27322DCC5A3D0058748F /* MenuBrain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,8 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40013A12CC493E900E052E1 /* GoogleService-Info.plist in Resources */,
 				F4E11ABB2CC4541B00FE6F2F /* LaunchScreen.storyboard in Resources */,
+				F4043D672DCC38C7005FCE9B /* GoogleService-Info.plist in Resources */,
 				F4E11AB82CC4541B00FE6F2F /* Assets.xcassets in Resources */,
 				F4E11AB62CC4541800FE6F2F /* Main.storyboard in Resources */,
 			);
@@ -261,14 +284,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4E11ACF2CC46D3800FE6F2F /* DescriptionNumbertwo.swift in Sources */,
+				F4FE17642DD00CE100E60697 /* DescriptionVC.swift in Sources */,
 				F4E11ACD2CC46D2C00FE6F2F /* DescriptionNumberone.swift in Sources */,
+				F4BA57242DCFE62B00A63CEF /* HomeTableViewCell.swift in Sources */,
 				F4E11AB32CC4541800FE6F2F /* Home.swift in Sources */,
 				F4E11AAF2CC4541800FE6F2F /* AppDelegate.swift in Sources */,
+				F40E27312DCC58FA0058748F /* MenuDetails.swift in Sources */,
 				F4E11AD12CC46D4300FE6F2F /* DescriptionNumberthree.swift in Sources */,
 				F4E11AD32CC4824300FE6F2F /* ForgetPassword.swift in Sources */,
+				F40E27332DCC5A3D0058748F /* MenuBrain.swift in Sources */,
 				F4E11AC62CC455FA00FE6F2F /* SignInVC.swift in Sources */,
 				F4E11AB12CC4541800FE6F2F /* SceneDelegate.swift in Sources */,
 				F4E11AC82CC4560C00FE6F2F /* RegisterVC.swift in Sources */,
+				F4043D6A2DCC5108005FCE9B /* scrollhomeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
